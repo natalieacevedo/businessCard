@@ -1,0 +1,125 @@
+//variables
+$font: "Inter", sans-serif;
+
+
+
+.CardBody{
+    width: 550px;
+    height: 868px;
+    margin: 53px auto;
+    background-color: #23252C;
+    border: 2px whitesmoke solid;
+    border-radius: 10%;
+};
+
+
+
+.profilePicture{
+    width: 317px;
+    height: 317px;
+    margin-top: 22px;
+    margin-left: 116px;
+    margin-right: 116px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.developerName{
+    font-family: $font;
+    font-weight: 700, bold;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.subTitle{
+    color:#F3BF99;
+    margin-top: 7px;
+    text-align: center;
+    font-family: $font;
+    margin-bottom: 8px;
+    font-size: 12.8px;
+
+}
+
+.miWebsite{
+    text-align: center;
+    display: block;
+    font-family: $font;
+    color:#F5F5F5;
+    text-decoration: none;
+    font-size: 11px;
+    margin-bottom: 16px;
+
+}
+
+button{
+    width: 247px;
+    height: 34px;
+    border-radius:6px;
+    margin: 0 auto ;
+    display: block;
+    font-family: $font;
+    font-size: 15px;
+    font-weight: bolder;
+    img{
+        margin-right: 13px;
+    }
+
+}
+
+
+
+.allInfoWrapper{
+    font-family: $font;
+    color:#DCDCDC;
+    h3{
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 35px;
+    font-weight: 700;
+
+    }
+
+    .about{
+        margin-bottom: 5px;
+    }
+
+    p{
+        margin-left: 35px;
+        font-size: 11px ;
+        margin-right: 35px;
+        line-height: 16px;
+    }
+    .interestP{
+        margin-bottom: 25px;
+    }
+}
+
+.allText{
+    background-color: red;
+    width: 317px;
+    height: 399px;
+    background-color: #1A1B21;
+    margin-top:-3.3vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 35px;
+    padding-top: 21px;
+}
+
+footer{
+    width: 317px;
+    height: 64px;
+    background-color: #161619;
+    margin: 0 auto;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        
+            margin-top: 19.5px;
+            margin-bottom: 19.5px;
+            
+    }
+}
